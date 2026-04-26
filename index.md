@@ -6,7 +6,7 @@ header:
   overlay_filter: 0.5
   title: "Estefano Farid Barquet Vera"
   excerpt: "Toward Fully Autonomous Mobile Robot System"
-
+entries_layout: list
 feature_row:
   - image_path: /assets/images/project1-thumb.jpg
     title: "Extension to Multi-Agent!"
