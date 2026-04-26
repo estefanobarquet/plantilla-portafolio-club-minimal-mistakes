@@ -10,16 +10,12 @@ header:
 
 <div class="entries-list">
   {% for post in site.categories.projects %}
-    <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <p>Intentando cargar imagen desde: <b>{{ post.header.teaser }}</b></p>
+    <article class="archive__item">
       <div class="archive__item-teaser">
-        <img src="{{ post.header.teaser | relative_url }}" alt="">
+        <img src="{{ post.header.teaser | relative_url }}" alt="Si ves esto, la ruta falló">
       </div>
-      <h2 class="archive__item-title no_toc" itemprop="headline">
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
-      </h2>
-      <div class="archive__item-excerpt" itemprop="description">
-        {{ post.excerpt | strip_html | truncate: 160 }}
-      </div>
+      <h2>{{ post.title }}</h2>
     </article>
   {% endfor %}
 </div>
