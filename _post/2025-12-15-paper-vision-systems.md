@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Vision Systems for Autonomous Navigation: A Review"
 categories: publications
 header:

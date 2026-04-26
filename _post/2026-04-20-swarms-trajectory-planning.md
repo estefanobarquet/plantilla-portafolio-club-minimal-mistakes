@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Decentralized Trajectory Planning for Quadrotor Swarms"
 categories: research
 header:

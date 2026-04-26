@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "AI-based Road Infrastructure Monitoring"
 categories: projects
 header:
