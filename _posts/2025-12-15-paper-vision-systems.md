@@ -1,13 +1,8 @@
 ---
-layout: single
-title: "Vision Systems for Autonomous Navigation: A Review"
-categories: publications
-header:
-  teaser: /assets/images/paper-teaser.jpg
+title: "No importa el título aquí, no se mostrará"
+categories:
+  - publications
+pub_status: "review" # Usa "review" para Under review, o "paper" para Papers
 ---
 
-**Status:** Published in IEEE Xplore (2025).
-
-**Abstract:** This paper reviews the state-of-the-art in LIDAR and Computer Vision fusion for autonomous ground vehicles. We analyze the trade-offs between computational cost and safety in urban environments.
-
-[Download PDF Here](/assets/documents/paper-vision.pdf)
+[1] E. Barquet, "AI-based Road Infrastructure Monitoring," 2026. Available: https://arxiv.org/...
