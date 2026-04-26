@@ -115,7 +115,7 @@ analytics:
 # Site Author
 author:
   name             : "Estefano"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/Estefano-Barquet.jpg"
   bio              : "I am an **amazing** person."
   location         : "Guayaquil, Ecuador"
   email            :
@@ -123,7 +123,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-square-envelope"
-      # url: "mailto:your.name@email.com"
+      url: "ebarquetv10@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
