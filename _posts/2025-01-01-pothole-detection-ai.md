@@ -1,7 +1,8 @@
 ---
 layout: single
 title: "AI-based Road Infrastructure Monitoring"
-categories: projects
+categories:
+  - projects
 header:
   teaser: /assets/images/pothole-teaser.jpg
 ---
