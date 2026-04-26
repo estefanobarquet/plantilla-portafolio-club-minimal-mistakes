@@ -3,7 +3,7 @@ title: "Multi-Sensor Fusion for Autonomous Navigation"
 categories:
   - research
 header:
-  teaser: estefanobarquet/plantilla-portafolio-club-minimal-mistakes/assets/images/nav-teaser.jpg
+  teaser: "assets/images/nav-teaser.jpg"
 ---
 
 **[DEMO]** Investigación centrada en la integración de sensores LIDAR y visión computacional para la navegación de robots móviles en entornos dinámicos.
