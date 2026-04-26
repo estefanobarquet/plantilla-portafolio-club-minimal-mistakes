@@ -3,7 +3,7 @@ layout: single
 title: "Decentralized Trajectory Planning for Quadrotor Swarms"
 categories: research
 header:
-  teaser: /assets/images/drone-swarm-teaser.jpg
+  teaser: assets/images/drone-swarm-teaser.jpg
 ---
 
 Research focused on avoiding deadlocks in high-density multi-agent environments. 

@@ -3,7 +3,7 @@ title: "Road Infrastructure AI Monitoring"
 categories:
   - projects
 header:
-  teaser: /assets/images/pothole-teaser.jpg
+  teaser: assets/images/pothole-teaser.jpg
 ---
 
 **[DEMO]** Desarrollo de un sistema basado en inteligencia artificial para la detección de baches y grietas en pavimentos. 

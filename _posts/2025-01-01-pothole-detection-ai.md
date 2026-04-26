@@ -4,7 +4,7 @@ title: "AI-based Road Infrastructure Monitoring"
 categories:
   - projects
 header:
-  teaser: /assets/images/pothole-teaser.jpg
+  teaser: assets/images/pothole-teaser.jpg
 ---
 
 This project implements a **YOLOv8** model to identify road hazards like potholes and cracks in real-time. 
