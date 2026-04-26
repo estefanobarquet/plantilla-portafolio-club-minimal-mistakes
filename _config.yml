@@ -139,6 +139,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "Curriculum Vitae (CV)"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "/assets/cv.pdf" # Tienen que subir su PDF a la carpeta assets
 
 # Site Footer
 footer:
