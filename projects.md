@@ -10,12 +10,18 @@ header:
 
 <div class="entries-list">
   {% for post in site.categories.projects %}
-    <p>Intentando cargar imagen desde: <b>{{ post.header.teaser }}</b></p>
-    <article class="archive__item">
-      <div class="archive__item-teaser">
-        <img src="{{ post.header.teaser | relative_url }}" alt="Si ves esto, la ruta falló">
+    <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork" style="display: flex; align-items: flex-start; margin-bottom: 2em;">
+      <div class="archive__item-teaser" style="flex: 0 0 250px; margin-right: 20px;">
+        <img src="{{ post.header.teaser | relative_url }}" alt="{{ post.title }}" style="width: 100%; border-radius: 4px;">
       </div>
-      <h2>{{ post.title }}</h2>
+      <div class="archive__item-body">
+        <h2 class="archive__item-title no_toc" itemprop="headline" style="margin-top: 0;">
+          <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+        </h2>
+        <div class="archive__item-excerpt" itemprop="description" style="font-size: 0.9em;">
+          {{ post.excerpt | strip_html | truncate: 160 }}
+        </div>
+      </div>
     </article>
   {% endfor %}
 </div>
