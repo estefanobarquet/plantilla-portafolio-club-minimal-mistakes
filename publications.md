@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
@@ -8,10 +8,8 @@ header:
   overlay_filter: 0.5
 ---
 
-## Under review
-
-[1] E. Barquet, "Sistema de navegación autónoma...", 2026. Available: https://arxiv.org/...
-
-## Papers
-
-[1] E. Barquet, "Detección de infraestructura vial con YOLO...", ESPOL, 2025.
+<div class="entries-list">
+  {% for post in site.categories.publications %}
+    {% include archive-single.html type="list" %}
+  {% endfor %}
+</div>

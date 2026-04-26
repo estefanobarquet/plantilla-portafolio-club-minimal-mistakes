@@ -9,8 +9,7 @@ header:
 ---
 
 <div class="entries-list">
-  {% assign project_posts = site.posts | where: "categories", "projects" %}
-  {% for post in project_posts %}
+  {% for post in site.categories.projects %}
     {% include archive-single.html type="list" %}
   {% endfor %}
 </div>
