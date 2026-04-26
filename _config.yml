@@ -121,9 +121,9 @@ author:
   email            :
   # fediverse      : "@you@instance.social"  # used for fediverse:creator meta tag
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-square-envelope"
-      url: "ebarquetv10@gmail.com"
+    - label: "efbarque@espol.edu.ec"
+      icon: "fas fa-fw fa-envelope"
+      url: "javascript:navigator.clipboard.writeText('efbarque@espol.edu.ec'); alert('Email copied to clipboard!');"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
