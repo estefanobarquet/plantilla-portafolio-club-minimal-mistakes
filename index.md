@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: home
 author_profile: true
 header:
   overlay_image: /assets/images/header-banner.jpg
@@ -29,7 +29,7 @@ You can see my works through these links: [RESEARCH](/research/) and [PROJECTS](
 {% include feature_row %}
 
 <hr>
-<h2>Recent Posts</h2>
+
 
 <div class="entries-list">
   {% for post in site.posts limit:5 %}
