@@ -1,28 +1,32 @@
 ---
-layout: single
+layout: splash
 author_profile: true
 header:
-  overlay_image: /assets/images/header-banner.jpg # Ruta de la imagen gigante
-  overlay_filter: 0.5 # Oscurece un poco la imagen para que se lea el texto
-  title: "Your Name's Research Space"
+  overlay_image: /assets/images/header-banner.jpg
+  overlay_filter: 0.5
+  title: "Estefano Farid Barquet Vera"
   excerpt: "Toward Fully Autonomous Mobile Robot System"
+
+# Aquí va tu texto. Al estar aquí, Jekyll procesará las negritas (**) perfectamente.
+intro:
+  - excerpt: "Hi, I am Estefano, a **robotics engineering student**. My research interests are Autonomous Navigation and Computer Vision.<br><br>You can see my works through these links: [RESEARCH](/research/) and [PROJECTS](/projects/)!"
+
+# Cuadrícula de proyectos
 feature_row:
-  - image_path: /assets/images/project1-thumb.jpg
+  - image_path: /assets/images/project1-thumb.jpg 
     title: "Extension to Multi-Agent!"
     excerpt: "Distributed multi-agent target tracking."
     url: "/projects/project-1/"
-  - image_path: /assets/images/project2-thumb.jpg
+  - image_path: /assets/images/project2-thumb.jpg 
     title: "Super Efficient Planning!"
     excerpt: "Bernstein polynomial motion primitive-based tracking."
     url: "/projects/project-2/"
-  - image_path: /assets/images/project3-thumb.jpg
+  - image_path: /assets/images/project3-thumb.jpg 
     title: "Learning-based Tracking!"
     excerpt: "Target tracking using CM-VAE."
     url: "/projects/project-3/"
 ---
 
-Hi, I am [Name], a **robotics engineering student**. My research interests are [Interest 1] and [Interest 2].
-
-You can see my works through these links: [RESEARCH](/research/) and [PROJECTS](/projects/)!
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
