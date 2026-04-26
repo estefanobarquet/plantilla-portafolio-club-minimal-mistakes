@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
@@ -8,8 +8,16 @@ header:
   overlay_filter: 0.5
 ---
 
-<div class="entries-list">
-  {% for post in site.categories.publications %}
-    {% include archive-single.html type="list" %}
-  {% endfor %}
-</div>
+## Under review
+
+{% assign under_review = site.posts | where_exp: "post", "post.categories contains 'publications'" | where: "pub_status", "review" %}
+{% for post in under_review %}
+{{ post.content }}
+{% endfor %}
+
+## Papers
+
+{% assign papers = site.posts | where_exp: "post", "post.categories contains 'publications'" | where: "pub_status", "paper" %}
+{% for post in papers %}
+{{ post.content }}
+{% endfor %}
