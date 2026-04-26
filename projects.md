@@ -9,7 +9,7 @@ header:
 ---
 
 <div class="entries-list">
-  {% for post in site.categories.research %}
+  {% for post in site.categories.projects %}
     {% include archive-single.html type="list" %}
   {% endfor %}
 </div>
