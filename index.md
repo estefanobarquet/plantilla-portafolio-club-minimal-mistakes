@@ -24,6 +24,6 @@ feature_row:
 
 Hi, I am Estefano, a **robotics engineering student**. My research interests are Autonomous Navigation and Computer Vision.
 
-You can see my works through these links: [RESEARCH](/research/) and [PROJECTS](/projects/)!
+You can see my works through these links: [RESEARCH](/research/) and [PROJECTS](/projects/)
 
 {% include feature_row %}
