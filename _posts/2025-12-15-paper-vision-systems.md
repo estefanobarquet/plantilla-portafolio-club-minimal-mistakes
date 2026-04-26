@@ -1,5 +1,5 @@
 ---
-title: "No importa el título aquí, no se mostrará"
+title: "Titulo"
 categories:
   - publications
 pub_status: "review" # Usa "review" para Under review, o "paper" para Papers
